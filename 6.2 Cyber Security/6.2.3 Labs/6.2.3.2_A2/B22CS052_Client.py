@@ -56,10 +56,8 @@ print(data_received)
 # waiting till the server resumes back
 
 # Task 4
-time.sleep(5)
 data_received = client("this message is to be in upper case",2)
 print(data_received)
-time.sleep(5)
 
 # Task 05
 data_received = client("This message is to be reversed",3)

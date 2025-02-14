@@ -1,0 +1,29 @@
+1. Dataset: Has three components:
+1.1 Organization
+1.2 Loading of the Data
+1.3 Using the data
+
+N C H W - batch_size, channels, height, width
+
+nn.eval() - very important to avoid drop out
+
+
+Assignment:
+1. Three layer architecture
+MNIST, CIPHER10, CIPHER100
+
+Network 1:
+ReLU, leakyRELU, Sigmoid, with SGD, Adam optimizer
+
+Network 2:
+Add drop out where ReLU will be there with Adam
+
+
+2. Choose an architecture of MLP network to classify images of those datasets
+3. Train the network, test the network with their respective models
+4. Explore ReLU, LeakyReLU, sigmoid
+5. Explore different kinds of optimizers: SGD, Adam
+6. Three loss functions: CrossEntropyLoss
+7. Include Dropout in network and omit the dropout the network
+8. Report the results in the excel sheet
+9. 

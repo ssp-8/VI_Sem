@@ -11,11 +11,12 @@ int main(){
         int j;
         for(j = 0;m[j]!= '\0';j++){
             char c = m[j]-65;
-            if(c-i <0){
-                c = (26-c-i)%N;
+            if(c-i < 0){
+                c = (c-i + 26)%N;
             }
             else {
-            c = (c-i)%N;}
+            c = (c-i + 26)%N;
+            }
             d[j] = c+65;
         }
         d[j] = '\0';
